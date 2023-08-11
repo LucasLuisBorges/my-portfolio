@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: 'Inicio',
-  description: 'Portefólio',
+  name: 'Lucas Borges',
+  description: 'Lucas Borges - FrontEnd Developer',
   authors: [
     {
       name: 'Lucas Borges',
