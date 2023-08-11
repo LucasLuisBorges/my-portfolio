@@ -1,4 +1,5 @@
 import '@/styles/globals.css';
+import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 
 import { DefaultLayout } from '@/components/default-layout';
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {children}
           </DefaultLayout>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
