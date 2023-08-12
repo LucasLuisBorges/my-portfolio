@@ -4,7 +4,7 @@ import { Briefcase, Database, Github, GraduationCap, Instagram, Linkedin, Mail, 
 import Link from 'next/link';
 
 import { DataCard } from '@/components/data-card';
-import { Skills } from '@/constants';
+import { Projects, Skills } from '@/constants';
 import Image from 'next/image';
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <DataCard
         name='Projetos'
         icon={Database}
-        count="12"
+        count={String(Projects.length)}
         color='data'
         className='col-span-4 sm:col-span-2 xl:col-span-1'
       />

@@ -50,24 +50,40 @@ export const Works = [
 
 export const Projects = [
   {
-    name: 'Projeto 1',
-    office: 'Desenvolvedor',
-    src: '/p.jpg',
+    name: 'Gestão horas',
+    office: 'React|Javascript',
+    src: '/projeto1.jpg',
+    link: 'https://github.com/LucasLuisBorges/gestao-hora',
   },
   {
-    name: 'Projeto 2',
-    office: 'Desenvolvedor',
-    src: '/p.jpg',
+    name: 'Dashboard',
+    office: 'React|Typescript',
+    src: '/projeto2.jpg',
+    link: 'https://github.com/LucasLuisBorges/Dashboard',
   },
   {
-    name: 'Projeto 3',
-    office: 'Desenvolvedor',
-    src: '/p.jpg',
+    name: 'Pokemon login',
+    office: 'React|Javascript',
+    src: '/projeto3.jpg',
+    link: 'https://github.com/LucasLuisBorges/Login_Screen_Pokemon',
   },
   {
-    name: 'Projeto 4',
-    office: 'Desenvolvedor',
-    src: '/p.jpg',
+    name: 'Twitter',
+    office: 'React|Typescript',
+    src: '/projeto4.jpg',
+    link: 'https://github.com/LucasLuisBorges/Twitter-Clone',
+  },
+  {
+    name: 'FlappyBird',
+    office: 'HTML|javascript',
+    src: '/projeto5.jpg',
+    link: 'https://github.com/LucasLuisBorges/FlappyBird',
+  },
+  {
+    name: 'Feed',
+    office: 'React|Typescript',
+    src: '/projeto6.jpg',
+    link: 'https://github.com/LucasLuisBorges/ignite-feed',
   },
 ];
 
