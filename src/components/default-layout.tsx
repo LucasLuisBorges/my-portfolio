@@ -20,7 +20,7 @@ export function DefaultLayout({ children }: IProps) {
   return (
     <div className='flex'>
       <aside className='hidden fixed xl:flex flex-col items-center gap-10 w-72 h-screen overflow-auto py-9 bg-background shadow-lg'>
-        <h1>LOGO</h1>
+        <Link href='/' className='font-bold text-4xl'>LB</Link>
 
         <nav className='w-4/5 flex flex-col gap-4'>
           {NAVIGATION.map((item, index) => (

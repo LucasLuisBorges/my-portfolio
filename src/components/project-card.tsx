@@ -25,13 +25,12 @@ export function ProjectCard({ name, office, src, link, className }: IProps) {
           <CardTitle>{name}</CardTitle>
           <CardDescription>{office}</CardDescription>
         </CardHeader>
-        <CardContent>
+        <CardContent className='relative w-full h-[300px]'>
           <Image
             alt='Imagem do projeto'
             src={src}
-            height={300}
-            width={600}
-            className='rounded-xl'
+            fill
+            className='rounded-xl bg-cover'
           />
         </CardContent>
       </Link>
